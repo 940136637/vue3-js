@@ -1,0 +1,26 @@
+node_modules
+dist
+dist-ssr
+coverage
+*.local
+
+# 环境变量：仅忽略本地私有配置，.env.development / .env.production 随仓库维护
+.env.local
+.env.*.local
+
+# 日志
+logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# 编辑器
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+
+# 缓存
+node_modules/.tmp
+.eslintcache
+.stylelintcache
